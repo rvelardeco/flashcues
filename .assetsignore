@@ -1,4 +1,6 @@
 .git
+.wrangler
+node_modules
 .github
 .DS_Store
 .nojekyll
