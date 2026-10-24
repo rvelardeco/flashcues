@@ -1,0 +1,13 @@
+// Cloudflare hosting for flashcues.app.
+// Cloudflare builds and deploys this repo on every push to main.
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "flashcues",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "."
+  },
+  "observability": {
+    "enabled": true
+  }
+}
