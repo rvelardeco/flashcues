@@ -32,3 +32,11 @@ details p{color:var(--muted);margin-top:8px}
 footer{padding:40px 0;color:var(--muted);font-size:14px;display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between}
 .doc{max-width:720px;padding:40px 20px}
 .doc p{margin:14px 0;color:#d0d0d4}
+.beta{font:700 11px/1 ui-monospace,monospace;letter-spacing:.12em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:4px 8px;margin-left:4px}
+.pill{display:inline-block;padding:8px 16px;border-radius:999px;background:rgba(191,90,242,.14);border:1px solid rgba(191,90,242,.4);color:#E3B5FA;font-size:14px;font-weight:600}
+.phone{width:100%;max-width:300px;justify-self:center;border-radius:36px;border:8px solid #2c2a33;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.lay{display:flex;gap:5px;height:90px;margin-bottom:16px}
+.lay.col{flex-direction:column}
+.lay.row{flex:1;gap:5px}
+.lay i{flex:1;background:#34303d;border-radius:5px;border:1px solid var(--line)}
+.lay.row i{background:#4a3f5c}
